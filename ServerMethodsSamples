@@ -1,0 +1,13 @@
+Search For Tracks
+WebSocket: ws://localhost:8080/searchForTracks
+Body: {"type":"Intent.SearchForTracks","searchQuery":{"raw":"123"}}
+
+
+Handle Intent
+WebSocket: ws://localhost:8080/handleIntent
+Body: {"type":"Intent.SearchForTracks","searchQuery":{"raw":"123"}}
+
+Get Track Media
+POST http://localhost:8080//getTrackMedia
+Body: { "trackID": "24462226" }
+
